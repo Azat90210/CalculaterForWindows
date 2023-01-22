@@ -86,9 +86,11 @@ public class Calculate extends JFrame {
         ravno = new JButton("=");
         ravno.setFont(BigFontTR);
         ravno.addActionListener(obr);
+
         plus = new JButton("+");
         plus.setFont(BigFontTR);
         plus.addActionListener(obr);
+
         minus = new JButton("-");
         minus.setFont(BigFontTR);
         minus.addActionListener(obr);
@@ -100,6 +102,7 @@ public class Calculate extends JFrame {
         delenie.addActionListener(obr);
         clean = new JButton("C");
         clean.setFont(BigFontTR);
+        clean.setForeground(Color.RED);
         clean.addActionListener(obr);
         point = new JButton(".");
         point.setFont(BigFontTR);
@@ -131,6 +134,7 @@ public class Calculate extends JFrame {
         panelButton.add(buttonEmpty1);
         panelButton.add(buttonEmpty2);
         panelButton.add(clean);
+
 
         windows.add(panelButton);
 
